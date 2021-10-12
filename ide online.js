@@ -1,6 +1,7 @@
 const Ecris = document.querySelector("#zoneTexte");
 const Lis = document.querySelector("#aperçu");
 const Apparition = document.querySelector("#apparition");
+const link = document.querySelector("#dmode");
 
 
 //fonction pour faire marcher le compteur de caractere    NE PAS METTRE DE # dans getelementbyID
@@ -44,7 +45,12 @@ Ecris.addEventListener('mouseleave',function(){
 
 let gras = document.querySelector("#boutonB")
 gras.addEventListener("click",function(){
-    Ecris.value+"<b>"
+    Ecris.value = Ecris.value + "<b> </b>";
 })
 
+
+let dmode = document.querySelector("#dmode")
+dmode.addEventListener("click",function(){
+    link.innerHTML = '<link rel="stylesheet" href="charte_dark_mode.css">';
+})
 

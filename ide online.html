@@ -5,12 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Premier projet JS</title>
-    <link rel="stylesheet" href="charte ide online.css">
+    <div id="link"><link rel="stylesheet" href="charte ide online.css"></div>
 </head>
 <body>
-    <h1><b>Editeur HTML/CSS live</b></h1>
+    <div>
+    <h1><div class="titre">Editeur HTML/CSS live</div><button id="dmode" type="button" class="dmode">Mode sombre</button></h1>
+    
+    </div>
     <form>
-        <button class="boutonB" id="boutonB"> b  /b </button>
+        <button class="boutonB" id="boutonB" type="button"> b  /b </button>
         <textarea name="Ton code" id="zoneTexte" class="zoneTexte-css" maxlength="200"></textarea>
      </form>
      <div id="barreVide" class="barreVide"><div id="progressbar" class="progressbar"></div></div>
