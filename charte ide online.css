@@ -1,0 +1,61 @@
+.zoneTexte-css{display:block;
+width: 90%;
+height: 200px;
+margin:auto;
+padding: 2%;
+border-color: black;
+border:solid;
+}
+
+h1{text-align: center;}
+
+.aperçu{display:block;
+    width: 90%;
+    height: 200px;
+    margin:auto;
+    padding: 2%;
+    margin-top: 10%;
+border-color: black;
+border:solid;
+pointer-events:none;}
+
+body{height: 100%;}
+
+.chargement1{display:block;
+    max-height:100px;
+    max-width: auto;
+ float:right;
+ margin-right:50%;
+ margin-bottom:20px;
+visibility: hidden;}
+
+h1{text-align: center;}
+
+.chargement2{display:block;
+    height: 100px;
+    max-width: auto;
+ float:right;
+ margin-right:50%;
+ margin-bottom: 20px;}
+
+ .compteur{text-align:right;
+margin-right: 5%;}
+
+.barreVide {width:95%;
+    height: 10px;
+    background-color: rgb(77, 74, 74);
+    margin:5px;
+    margin-left:auto;
+    margin-right:auto;}
+
+.progressbar {width:0%;
+ max-width:100%;
+height:10px;
+background-color:green; 
+}
+
+.boutonB{display: block;
+height:5%;
+width:5%;
+margin-left:15%;
+margin-bottom:1%;}
