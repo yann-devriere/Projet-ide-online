@@ -1,7 +1,7 @@
 const Ecris = document.querySelector("#zoneTexte");
 const Lis = document.querySelector("#aperçu");
 const Apparition = document.querySelector("#apparition");
-const link = document.querySelector("#dmode");
+
 
 
 //fonction pour faire marcher le compteur de caractere    NE PAS METTRE DE # dans getelementbyID
@@ -49,8 +49,18 @@ gras.addEventListener("click",function(){
 })
 
 
-let dmode = document.querySelector("#dmode")
-dmode.addEventListener("click",function(){
-    link.innerHTML = '<link rel="stylesheet" href="charte_dark_mode.css">';
-})
+// let dmode = document.querySelector("#dmode")
+// dmode.addEventListener("click",function(){
+//     link.innerHTML = '<link rel="stylesheet" href="charte_dark_mode.css">';
+// })
+
+const interrupteur = document.getElementById("switch")
+interrupteur.addEventListener("change",function(){
+    if (document.querySelector("#switch").checked === true) {
+        link.innerHTML = '<link rel="stylesheet" href="charte_dark_mode.css">';
+    } else{
+        link.innerHTML = '<link rel="stylesheet" href="charte ide online.css">';
+    }
+}
+)
 
