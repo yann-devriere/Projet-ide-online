@@ -34,11 +34,11 @@ else if (pourcentage >=150 && pourcentage <= 200) {document.getElementById("prog
     
 //Affichage du gif
 Ecris.addEventListener('mouseenter',function(){
-    Apparition.innerHTML = '<img src="Chargement.gif" alt="chargement" title="chargement" class="chargement2"></img>' ;
+    Apparition.innerHTML = '<img src="loading.gif" alt="chargement" title="chargement" class="chargement2"></img>' ;
 })
 
 Ecris.addEventListener('mouseleave',function(){
-    Apparition.innerHTML = '<img src="Chargement.gif" alt="chargement" title="chargement" class="chargement1"></img>' ;
+    Apparition.innerHTML = '<img src="loading.gif" alt="chargement" title="chargement" class="chargement1"></img>' ;
 })
 
 

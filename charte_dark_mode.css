@@ -28,7 +28,7 @@
     background-color:rgb(24, 23, 23);}
     
     .chargement1{display:block;
-        max-height:100px;
+        max-height:60px;
         max-width: auto;
      float:right;
      margin-right:50%;
@@ -39,7 +39,7 @@
     h1{text-align: center;}
     
     .chargement2{display:block;
-        height: 100px;
+        height: 60px;
         max-width: auto;
      float:right;
      margin-right:50%;
@@ -75,10 +75,23 @@ color: white;}
     color:black;
     border-radius:0.6em;}
     
-    .switch{display: flex;
+    .switch{
         float:right;
-    margin-right: 10%;}
-    
+        margin-right: 10%;
+        margin-bottom: 2%;
+        background-color: white;
+        color:black;
+        border-radius: 0.6em;
+        height: auto;
+        width:auto;
+        text-align: center;
+        font-size: larger;
+        padding: 1%;
+        }
+        .checkbox { width:20px;
+            height: 20px;
+            vertical-align:middle;
+        }
     
     .titre{display:block;
         text-align: center;}

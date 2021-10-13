@@ -24,10 +24,10 @@ pointer-events:none;
 background-color: darkgray;}
 
 body{height: 100%;
-background-color:ivory;}
+background-color:rgb(206, 206, 187);}
 
 .chargement1{display:block;
-    max-height:100px;
+    max-height:60px;
     max-width: auto;
  float:right;
  margin-right:50%;
@@ -38,7 +38,7 @@ background-color: rosybrown;}
 h1{text-align: center;}
 
 .chargement2{display:block;
-    height: 100px;
+    height: 60px;
     max-width: auto;
  float:right;
  margin-right:50%;
@@ -73,9 +73,23 @@ background-color:black;
 color:white;
 border-radius:0.6em;}
 
-.switch{display: flex;
-    float:right;
-margin-right: 10%;}
+.switch{
+float:right;
+margin-right: 10%;
+margin-bottom: 2%;
+background-color: black;
+color: white;
+border-radius: 0.6em;
+height: auto;
+width:auto;
+text-align: center;
+font-size: larger;
+padding: 1%;
+}
+.checkbox { width:20px;
+    height: 20px;
+    vertical-align:middle;
+}
 
 .titre{display:block;
     text-align: center;}
